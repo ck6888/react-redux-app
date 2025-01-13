@@ -1,12 +1,16 @@
 import React from "react";
 
 const Home = (props) => {
+  console.log("props", props);
   return (
     <div>
-      <h1>Home Component</h1>
+      <h1>Redux Tutorial</h1>
       <div className="cart-wrapper">
         <div className="img-wrapper item">
-          <img src="https://www.visible.com/shop/assets/images/shop/catalogue/iPhone_16_Pro_DES_1.webp" />
+          <img
+            alt="some value"
+            src="https://www.visible.com/shop/assets/images/shop/catalogue/iPhone_16_Pro_DES_1.webp"
+          />
         </div>
         <div className="text-wrapper item">
           <span>I-Phone</span>
@@ -14,11 +18,20 @@ const Home = (props) => {
         </div>
         <div className="btn-wrapper item">
           <button
+            className="add-cart-btn"
             onClick={() => {
               props.addToCartHandler({ pice: 1000, name: "i phone 11" });
             }}
           >
             Add To Cart
+          </button>
+          <button
+            className="remove-cart-btn"
+            onClick={() => {
+              props.removeToCartHandler();
+            }}
+          >
+            Remove To Cart
           </button>
         </div>
       </div>
