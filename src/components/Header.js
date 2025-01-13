@@ -1,11 +1,10 @@
 import React from "react";
 function Header(props) {
-  console.warn(props.data);
   return (
     <div>
       <div className="add-to-cart">
         <span className="cart-count">{props.data.length}</span>
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/496/007/small/Ecommerce_998.jpg" />
+        <img src="https://as2.ftcdn.net/jpg/03/11/48/85/1000_F_311488581_Yu4WPdLLNt47cymWU3VmHmOnH7BHqp9F.jpg" />
       </div>
     </div>
   );
