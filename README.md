@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 # react-redux-app
 
 # Learn react with redux
 
-=======
->>>>>>> 9b5e01948e40642fac1ee8052de255494f1ac320
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
