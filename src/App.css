@@ -24,18 +24,24 @@
   color: white;
 }
 
+.header{
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
 .img-wrapper img {
   width: 100px;
   margin-top: -10px;;
 }
 .cart-wrapper{
-  height: 120px;
+    height: 120px;
     width: 500px;
     border: 1px solid #ccc;
     margin-left: 10%;
 }
 .item {
-  float: left;
+  float:left;
   display: inline-block;
   width: 120px;
   padding: 20px;
